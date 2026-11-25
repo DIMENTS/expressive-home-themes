@@ -1,0 +1,50 @@
+{
+  "format": 2,
+  "id": "t-strak00000000001",
+  "name": "Strak",
+  "maker": "DIMENTS",
+  "base": "rustig",
+  "seed": "#3c4a2e",
+  "userSeed": false,
+  "knobs": {
+    "roundness": "slight",
+    "strength": "grey"
+  },
+  "app": "1.3.0",
+  "values": {
+    "light": {
+      "page-bg": "#f3f3f1",
+      "section-bg": "#ffffff",
+      "tile-bg": "#efefed",
+      "tile-fg": "#1c1c1a",
+      "tile-state-fg": "#55554f",
+      "tile-on-bg": "#1d1f1c",
+      "tile-on-fg": "#ffffff",
+      "tile-icon-on-bg": "#ffffff",
+      "tile-icon-on-fg": "#1d1f1c",
+      "tile-on-slider-fill": "#c8f060",
+      "tile-on-slider-track": "#4a4c48",
+      "hero-wave-fg": "#4d5b3f",
+      "hero-chart-line": "#4d5b3f",
+      "section-hero-bg": "#ffffff",
+      "section-hero-fg": "#1c1c1a"
+    },
+    "dark": {
+      "page-bg": "#0c0c0b",
+      "section-bg": "#161615",
+      "tile-bg": "#20201e",
+      "tile-fg": "#f2f2ef",
+      "tile-state-fg": "#b9b9b2",
+      "tile-on-bg": "#f2f2ef",
+      "tile-on-fg": "#111110",
+      "tile-icon-on-bg": "#111110",
+      "tile-icon-on-fg": "#f2f2ef",
+      "tile-on-slider-fill": "#4d6b00",
+      "tile-on-slider-track": "#c9c9c3",
+      "hero-wave-fg": "#c8f060",
+      "hero-chart-line": "#c8f060",
+      "section-hero-bg": "#161615",
+      "section-hero-fg": "#f2f2ef"
+    }
+  }
+}

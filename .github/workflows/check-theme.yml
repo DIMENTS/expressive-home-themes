@@ -1,0 +1,63 @@
+# Checks a theme sent in with the form: the first job reads it and makes the previews and may not write; the second
+# checks everything again itself, then opens or updates the pull request and answers the form. A run that an edit of
+# the form cancelled answers nothing: the run of the edit does. What someone typed only
+# ever reaches the scripts as the event file, never a command.
+name: Check a theme
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions: {}
+
+concurrency:
+  group: theme-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: contains(github.event.issue.labels.*.name, 'theme-submission') && github.event.issue.state == 'open'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/check-issue.mjs "$GITHUB_EVENT_PATH" out
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: theme
+          path: out/
+          retention-days: 3
+
+  write:
+    needs: check
+    if: !cancelled() && contains(github.event.issue.labels.*.name, 'theme-submission') && github.event.issue.state == 'open'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        continue-on-error: true
+        with:
+          name: theme
+          path: incoming
+      - run: node scripts/accept.mjs "$GITHUB_EVENT_PATH" incoming
+        env:
+          GH_TOKEN: ${{ github.token }}

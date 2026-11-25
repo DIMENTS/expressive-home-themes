@@ -1,0 +1,9 @@
+{
+  "name": "expressive-home-themes",
+  "private": true,
+  "type": "module",
+  "description": "Themes for Expressive Home, checked with the app's own code.",
+  "dependencies": {
+    "playwright": "1.65.1"
+  }
+}

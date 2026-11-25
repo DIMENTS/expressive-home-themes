@@ -1,0 +1,40 @@
+name: Send in a theme
+description: Share a theme of Expressive Home in the gallery. / Deel een thema van Expressive Home in de galerij.
+title: "Theme"
+labels: ["theme-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In Expressive Home, open **Theme**, choose your theme and use **Send in to the gallery**: the name and the code are then filled in for you. A check looks the theme over with the app's own code and makes the previews; the owner of the gallery decides.
+
+        Open in Expressive Home **Thema**, kies je thema en gebruik **Insturen bij de galerij**: de naam en de code staan er dan al. Een controle kijkt het thema na met de code van het appje zelf en maakt de voorbeelden; de eigenaar van de galerij beslist.
+  - type: input
+    id: name
+    attributes:
+      label: Theme name
+      description: At most 40 characters; letters, digits and a few marks. / Naam van het thema, hooguit 40 tekens; letters, cijfers en een paar leestekens.
+    validations:
+      required: true
+  - type: textarea
+    id: code
+    attributes:
+      label: Share code
+      description: The code from Theme → your theme → Copy code. It starts with EH. / Deelcode, uit Thema → je thema → Code kopiëren. Hij begint met EH.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: Optional, at most 300 characters of plain text. / Korte uitleg, mag leeg blijven, hooguit 300 tekens gewone tekst.
+    validations:
+      required: false
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      description: Themes in the gallery are shared under CC BY 4.0. / Thema's in de galerij worden gedeeld onder CC BY 4.0.
+      options:
+        - label: I made this theme and share it under CC BY 4.0. / Ik heb dit thema gemaakt en deel het onder CC BY 4.0.
+          required: true

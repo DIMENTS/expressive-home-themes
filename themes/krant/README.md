@@ -1,0 +1,28 @@
+# Krant
+
+![Krant, light](light.png) ![Krant, dark](dark.png)
+
+**Made by / Gemaakt door** [DIMENTS](https://github.com/DIMENTS) · **Needs / Nodig** Expressive Home 1.3.0 or newer / of nieuwer · **Added / Toegevoegd** 2026-11-25
+
+> Paper, serif letters and rules, like a newspaper. Papier, schreefletters en lijnen, als een krant.
+
+## Share code / Deelcode
+
+Copy the code. In Expressive Home, open Theme → Theme from someone else, and paste it. / Kopieer de code. Open in Expressive Home Thema → Thema van een ander, en plak hem.
+
+```text
+EH2.eyJmb3JtYXQiOjIsImlkIjoidC1rcmFudDAwMDAwMDAwMDAxIiwibmFtZSI6IktyYW50IiwibWFrZXIiOiJESU1FTlRTIiwiYmFzZSI6InJ1c3RpZyIsInNlZWQiOiIjYTMxNDFmIiwidXNlclNlZWQiOmZhbHNlLCJrbm9icyI6eyJyb3VuZG5lc3MiOiJzcXVhcmUiLCJsZXR0ZXIiOiJzZXJpZiIsIndlaWdodCI6NzAwfSwiYXBwIjoiMS4zLjAiLCJ2YWx1ZXMiOnsibGlnaHQiOnsicGFnZS1iZyI6IiNmNmVmZTMiLCJwYWdlLWZnIjoiIzFiMWIxYiIsInNlY3Rpb24tYmciOiIjZjZlZmUzIiwic2VjdGlvbi1mZyI6IiMxYjFiMWIiLCJ0aWxlLWJnIjoiI2Y2ZWZlMyIsInRpbGUtZmciOiIjMWIxYjFiIiwidGlsZS1zdGF0ZS1mZyI6IiM0ZjQ5M2YiLCJ0aWxlLW9uLWJnIjoiI2Y2ZWZlMyIsInRpbGUtb24tZmciOiIjYTMxNDFmIiwidGlsZS1pY29uLWJnIjoiI2Y2ZWZlMyIsInRpbGUtaWNvbi1mZyI6IiM1YzU1NGEiLCJ0aWxlLWljb24tb24tYmciOiIjZjZlZmUzIiwidGlsZS1pY29uLW9uLWZnIjoiI2EzMTQxZiIsInRpbGUtb24tc2xpZGVyLWZpbGwiOiIjYTMxNDFmIiwidGlsZS1vbi1zbGlkZXItdHJhY2siOiIjZGRkM2MwIiwic2VjdGlvbi1oZXJvLWJnIjoiI2Y2ZWZlMyIsInNlY3Rpb24taGVyby1mZyI6IiMxYjFiMWIiLCJoZXJvLXdhdmUtZmciOiIjMWIxYjFiIiwiaGVyby1jaGFydC1saW5lIjoiIzFiMWIxYiIsImhlcm8tc3RhdC1iZyI6IiNlNmRmZDAifSwiZGFyayI6eyJwYWdlLWJnIjoiIzE5MTcxNCIsInBhZ2UtZmciOiIjZWZlN2Q4Iiwic2VjdGlvbi1iZyI6IiMxOTE3MTQiLCJzZWN0aW9uLWZnIjoiI2VmZTdkOCIsInRpbGUtYmciOiIjMTkxNzE0IiwidGlsZS1mZyI6IiNlZmU3ZDgiLCJ0aWxlLXN0YXRlLWZnIjoiI2I4YWU5YyIsInRpbGUtb24tYmciOiIjMTkxNzE0IiwidGlsZS1vbi1mZyI6IiNmZjhhOGYiLCJ0aWxlLWljb24tYmciOiIjMTkxNzE0IiwidGlsZS1pY29uLWZnIjoiI2I4YWU5YyIsInRpbGUtaWNvbi1vbi1iZyI6IiMxOTE3MTQiLCJ0aWxlLWljb24tb24tZmciOiIjZmY4YThmIiwidGlsZS1vbi1zbGlkZXItZmlsbCI6IiNmZjhhOGYiLCJ0aWxlLW9uLXNsaWRlci10cmFjayI6IiM0YTQ0M2IiLCJzZWN0aW9uLWhlcm8tYmciOiIjMTkxNzE0Iiwic2VjdGlvbi1oZXJvLWZnIjoiI2VmZTdkOCIsImhlcm8td2F2ZS1mZyI6IiNlZmU3ZDgiLCJoZXJvLWNoYXJ0LWxpbmUiOiIjZWZlN2Q4IiwiaGVyby1zdGF0LWJnIjoiIzJhMjYyMiJ9fSwiY3NzIjp7InZlcnNpb24iOjEsInRleHQiOiIvKiBLcmFudDogYSBuZXdzcGFwZXIsIHdpdGggcnVsZXMgYmV0d2VlbiB0aGUgc2VjdGlvbnMgKi9cbjo6cGFydChzZWN0aW9uKSB7IGJvcmRlci1yYWRpdXM6IDA7IH1cbjo6cGFydChzZWN0aW9uLXRpdGxlKSB7IGJvcmRlci1ib3R0b206IDNweCBkb3VibGUgIzhhODE3MjsgcGFkZGluZy1ib3R0b206IDRweDsgfVxuOjpwYXJ0KHRpbGUpIHsgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNjZmM0YWU7IGJvcmRlci1yYWRpdXM6IDA7IH1cbjo6cGFydChoZXJvLXN0YXQpIHsgYm9yZGVyLXJhZGl1czogMDsgfVxuOjpwYXJ0KGdyZWV0aW5nKSB7IGxldHRlci1zcGFjaW5nOiAtMXB4OyB9XG4vKiBpdGFsaWMgdGl0bGVzIHdvcmsgb25jZSB0aGV5IGFyZSBhbGxvd2VkICovXG46OnBhcnQoc2VjdGlvbi10aXRsZSkgeyBmb250LXN0eWxlOiBpdGFsaWM7IH0ifX0.1a6v2vp
+```
+
+Or download [theme.json](theme.json) and choose it there as a file. / Of download [theme.json](theme.json) en kies het daar als bestand.
+
+## What the check found / Wat de controle vond
+
+- 45 values of its own; 0 left out. / 45 eigen waarden; 0 weggelaten.
+- Easy to read everywhere. / Overal goed leesbaar.
+- Own CSS: 8 lines. / Eigen CSS: 8 regels.
+  - Line 8 works only once someone allows everything on their device. / Regel 8 werkt pas na Alles toestaan op het eigen apparaat.
+
+After Allow everything / Na Alles toestaan:
+
+![Krant, after allowing everything](allowed.png)

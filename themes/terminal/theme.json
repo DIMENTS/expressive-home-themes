@@ -1,0 +1,49 @@
+{
+  "format": 2,
+  "id": "t-termina000000001",
+  "name": "Terminal",
+  "maker": "DIMENTS",
+  "base": "rustig",
+  "seed": "#2f9e57",
+  "userSeed": false,
+  "knobs": {
+    "roundness": "square",
+    "letter": "system"
+  },
+  "app": "1.3.0",
+  "values": {
+    "both": {
+      "page-bg": "#04110a",
+      "page-fg": "#9ff5bd",
+      "section-bg": "#04110a",
+      "section-fg": "#9ff5bd",
+      "section-outline": "#1f6b3a",
+      "section-outline-width": "1px",
+      "tile-bg": "#04110a",
+      "tile-fg": "#e2fbe9",
+      "tile-state-fg": "#8fcf9f",
+      "tile-outline": "#1f6b3a",
+      "tile-outline-width": "1px",
+      "tile-on-bg": "#0b2a17",
+      "tile-on-fg": "#5ff28c",
+      "tile-icon-bg": "#04110a",
+      "tile-icon-fg": "#9ff5bd",
+      "tile-icon-on-bg": "#0b2a17",
+      "tile-icon-on-fg": "#5ff28c",
+      "tile-on-slider-fill": "#5ff28c",
+      "tile-on-slider-track": "#1b4a2b",
+      "header-eyebrow-fg": "#8fcf9f",
+      "rail-item-fg": "#9ff5bd",
+      "section-count-fg": "#8fcf9f",
+      "section-hero-bg": "#04110a",
+      "section-hero-fg": "#5ff28c",
+      "hero-wave-fg": "#5ff28c",
+      "hero-chart-line": "#5ff28c",
+      "hero-stat-bg": "#0b2a17"
+    }
+  },
+  "css": {
+    "version": 1,
+    "text": "/* Terminal: letters of a typewriter, green on black */\n::part(page) { font-family: ui-monospace, \"SFMono-Regular\", Menlo, Consolas, monospace; }\n::part(section-title) { letter-spacing: 1px; }\n::part(tile-name) { color: #e2fbe9; }\n::part(tile on) { border-color: #5ff28c; }\n::part(greeting) { color: #c9ffd9; }\n/* the glow works once it is allowed */\n::part(hero-number) { text-shadow: 0 0 8px #5ff28c; }\n::part(tile-name on) { text-shadow: 0 0 6px #2f9e57; }"
+  }
+}

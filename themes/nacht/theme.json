@@ -1,0 +1,38 @@
+{
+  "format": 2,
+  "id": "t-nacht00000000001",
+  "name": "Nacht",
+  "maker": "DIMENTS",
+  "base": "rustig",
+  "seed": "#b5452b",
+  "userSeed": false,
+  "knobs": {
+    "strength": "vivid"
+  },
+  "app": "1.3.0",
+  "values": {
+    "dark": {
+      "page-bg": "#000000",
+      "section-bg": "#0e0c0b",
+      "tile-bg": "#171514",
+      "tile-fg": "#f1e6e2",
+      "tile-on-bg": "#3a1a12",
+      "tile-on-fg": "#ffdbd1",
+      "tile-icon-on-bg": "#ffb4a2",
+      "tile-icon-on-fg": "#3a0b02",
+      "tile-on-slider-fill": "#ffb4a2",
+      "tile-on-slider-track": "#6b3a2e",
+      "section-hero-bg": "#1f1310",
+      "section-hero-fg": "#ffb4a2",
+      "hero-wave-fg": "#ffb4a2",
+      "hero-chart-line": "#ffb4a2",
+      "hero-stat-bg": "#2e1d18"
+    },
+    "light": {
+      "page-bg": "#f6f0ee",
+      "section-bg": "#fffbfa",
+      "tile-bg": "#ece5e2",
+      "tile-fg": "#231a17"
+    }
+  }
+}

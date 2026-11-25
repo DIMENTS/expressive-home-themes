@@ -1,0 +1,65 @@
+{
+  "format": 2,
+  "id": "t-krant00000000001",
+  "name": "Krant",
+  "maker": "DIMENTS",
+  "base": "rustig",
+  "seed": "#a3141f",
+  "userSeed": false,
+  "knobs": {
+    "roundness": "square",
+    "letter": "serif",
+    "weight": 700
+  },
+  "app": "1.3.0",
+  "values": {
+    "light": {
+      "page-bg": "#f6efe3",
+      "page-fg": "#1b1b1b",
+      "section-bg": "#f6efe3",
+      "section-fg": "#1b1b1b",
+      "tile-bg": "#f6efe3",
+      "tile-fg": "#1b1b1b",
+      "tile-state-fg": "#4f493f",
+      "tile-on-bg": "#f6efe3",
+      "tile-on-fg": "#a3141f",
+      "tile-icon-bg": "#f6efe3",
+      "tile-icon-fg": "#5c554a",
+      "tile-icon-on-bg": "#f6efe3",
+      "tile-icon-on-fg": "#a3141f",
+      "tile-on-slider-fill": "#a3141f",
+      "tile-on-slider-track": "#ddd3c0",
+      "section-hero-bg": "#f6efe3",
+      "section-hero-fg": "#1b1b1b",
+      "hero-wave-fg": "#1b1b1b",
+      "hero-chart-line": "#1b1b1b",
+      "hero-stat-bg": "#e6dfd0"
+    },
+    "dark": {
+      "page-bg": "#191714",
+      "page-fg": "#efe7d8",
+      "section-bg": "#191714",
+      "section-fg": "#efe7d8",
+      "tile-bg": "#191714",
+      "tile-fg": "#efe7d8",
+      "tile-state-fg": "#b8ae9c",
+      "tile-on-bg": "#191714",
+      "tile-on-fg": "#ff8a8f",
+      "tile-icon-bg": "#191714",
+      "tile-icon-fg": "#b8ae9c",
+      "tile-icon-on-bg": "#191714",
+      "tile-icon-on-fg": "#ff8a8f",
+      "tile-on-slider-fill": "#ff8a8f",
+      "tile-on-slider-track": "#4a443b",
+      "section-hero-bg": "#191714",
+      "section-hero-fg": "#efe7d8",
+      "hero-wave-fg": "#efe7d8",
+      "hero-chart-line": "#efe7d8",
+      "hero-stat-bg": "#2a2622"
+    }
+  },
+  "css": {
+    "version": 1,
+    "text": "/* Krant: a newspaper, with rules between the sections */\n::part(section) { border-radius: 0; }\n::part(section-title) { border-bottom: 3px double #8a8172; padding-bottom: 4px; }\n::part(tile) { border-bottom: 1px solid #cfc4ae; border-radius: 0; }\n::part(hero-stat) { border-radius: 0; }\n::part(greeting) { letter-spacing: -1px; }\n/* italic titles work once they are allowed */\n::part(section-title) { font-style: italic; }"
+  }
+}
